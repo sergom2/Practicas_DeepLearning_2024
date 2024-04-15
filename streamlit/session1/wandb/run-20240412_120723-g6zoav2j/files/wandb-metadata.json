@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-04-12T10:07:33.637995",
+    "startedAt": "2024-04-12T10:07:23.636975",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/sergom2/ML2-img-class.git",
+        "commit": "649688b6369cf285d8c8c4b75eb204b005792f9f"
+    },
+    "email": "202316187@alu.comillas.edu",
+    "root": "C:/Users/sergi/OneDrive/Escritorio/MBD/Machine Learning 2/Practicas_DeepLearning_2024",
+    "host": "GramSergio",
+    "username": "sergi",
+    "executable": "c:\\Users\\sergi\\anaconda3\\envs\\ML2\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2803.0,
+        "min": 0.0,
+        "max": 2803.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2803.0,
+            "min": 0.0,
+            "max": 2803.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 456.85546493530273,
+            "used": 329.97811126708984
+        }
+    },
+    "memory": {
+        "total": 15.715019226074219
+    }
+}

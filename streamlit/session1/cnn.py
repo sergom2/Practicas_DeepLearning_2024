@@ -239,5 +239,5 @@ def load_model_weights(filename: str):
         filename = os.path.join('models', filename)
 
         # Load the model
-        state_dict = torch.load(filename+'.pt')
+        state_dict = torch.load(filename+'.pth')
         return state_dict

@@ -8,12 +8,10 @@ from cnn import load_data
 import torchvision
 from cnn import load_model_weights
 
-# Actualiza esta ruta para que coincida con la ubicación de tu modelo
-#modelo_path = 'C:/Users/sergi/OneDrive/Escritorio/MBD/Machine Learning 2/Practicas_DeepLearning_2024/03TransferLearning/models/resnet50-1epoch.pt'
-#modelo = torch.load(modelo_path, map_location=torch.device('cpu'))
+# Cargar modelo
 num_classes = 15
-model_weights = load_model_weights('resnet50-1epoch')
-modelo = CNN(torchvision.models.resnet50(weights='DEFAULT'), num_classes)
+model_weights = load_model_weights('model_1_grande.pth')
+modelo = CNN(torchvision.models.resnet50(weights=model_weights), num_classes)
 modelo.load_state_dict(model_weights, strict=False)
 
 def transformar_imagen(imagen):
